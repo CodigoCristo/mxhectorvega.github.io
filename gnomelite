@@ -41,11 +41,8 @@ echo -e ""
 echo -e "Este script es un fork de CrisParch by @codigocristo"
 sleep 1
 echo -e ""
-echo -e "Puedes contribuir ❤️"
-sleep 1
-echo -e ""
-echo -e "paypal.me/hivz"
-sleep 20
+echo -e "Puedes contribuir en paypal.me/hivz"
+sleep 18
 echo -e ""
 echo -e "Ejecutando..."
 sleep 2
@@ -93,6 +90,10 @@ read -p "$(echo -e "6.- Introduce tu ubicación, ejemplo: es_MX.UTF-8: ")" userp
 echo ""
 echo ""
 read -p "$(echo -e "7.- Introduce la distribucion de tu teclado, ejemplo es, latam, us: ")" teclado
+
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+# Muestra los datos porporcionados
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 clear
 echo ""
 echo ""
