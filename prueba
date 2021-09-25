@@ -1,0 +1,52 @@
+#!/bin/bash
+
+clear
+pacman -Sy cowsay --noconfirm
+
+clear
+echo -e ""
+echo -e ""
+echo -e ""
+echo -e ""
+cowsay -d paypal.me/hivz
+sleep 3
+
+echo -e ""
+echo -e ""
+echo -e ""
+echo -e "Bienvenido al instalador de ArchLinux"
+sleep 1
+echo -e ""
+echo -e "A continuacion escribira un par de datos para generar usuario, contraseñas, idioma de SO y disribucion de teclado."
+sleep 1
+echo -e ""
+echo -e "Antes de comenzar la instalacion asegurate de que la bateria del computador este al 100% o conectada al tomacorriente."
+sleep 1
+echo -e ""
+echo -e "Los datos que proporcionara no seran almacenados en ningun lugar."
+sleep 1
+echo -e ""
+echo -e "Este script es un fork de CrisParch by @codigocristo"
+sleep 1
+echo -e ""
+echo -e "Puedes contribuir ❤️"
+sleep 1
+echo -e ""
+echo -e "paypal.me/hivz"
+sleep 20
+echo -e ""
+echo -e "Ejecutando script..."
+sleep 2
+
+clear
+echo -e ""
+echo -e ""
+echo -e ""
+read -p "$(echo -e "Escibe tu nombre de usuario nuevo:")" loco1
+
+clear
+echo -e ""
+echo -e ""
+echo -e ""
+echo -e "Tu usuario es: $loco1"
+sleep 10
