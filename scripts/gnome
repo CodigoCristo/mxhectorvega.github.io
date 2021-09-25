@@ -483,6 +483,24 @@ arch-chroot /mnt /bin/bash -c "pacman -S zsh-autosuggestions zsh-history-substri
 #arch-chroot /mnt /bin/bash -c "pacman -S xorg-server xorg-apps xorg-xinit --noconfirm" 
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
+# Instalación de software, tipografias y temas para el usuario.
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
+clear 
+echo "" 
+echo "Instalando utilidades del sistema..." 
+sleep 1 
+arch-chroot /mnt /bin/bash -c "pacman -S python-pillow file-roller kitty mpv firefox telegram-desktop pcmanfm imv zathura mupdf neofetch ranger neovim htop --noconfirm"
+arch-chroot /mnt /bin/bash -c "pacman -S msmtp libmtp libcddb gvfs gvfs-afc gvfs-smb gvfs-gphoto2 gvfs-mtp gvfs-goa gvfs-nfs gvfs-google dosfstools jfsutils f2fs-tools btrfs-progs exfat-utils ntfs-3g reiserfsprogs udftools xfsprogs nilfs-utils polkit gpart mtools --noconfirm"
+arch-chroot /mnt /bin/bash -c "pacman -S ttf-{dejavu,hack,roboto,liberation} wqy-microhei bdf-unifont unicode-character-database noto-fonts-emoji -–noconfirm"
+arch-chroot /mnt /bin/bash -c "pacman -S git wget neofetch lsb-release xdg-user-dirs -–noconfirm"
+arch-chroot /mnt /bin/bash -c "pacman -S snapper papirus-icon-theme materia-gtk-theme -–noconfirm"
+arch-chroot /mnt /bin/bash -c "xdg-user-dirs-update" 
+arch-chroot /mnt /bin/bash -c "ls -l /home/$user" 
+sleep 2 
+echo "Se termino de instalar el software del usuario!"
+sleep 5
+
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 # Instalación de gnome 40.4 paquetes escánciales 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 clear 
@@ -491,21 +509,7 @@ echo "Instalando Gnome 40 minimal"
 sleep 1 
 arch-chroot /mnt /bin/bash -c "pacman -S gdm gnome-control-center gnome-tweaks gnome-shell --noconfirm" 
 arch-chroot /mnt /bin/bash -c "systemctl enable gdm"
-
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
-# Instalación de software, tipografias y temas para el usuario.
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
-clear 
-echo "" 
-echo "Instalando utilidades del sistema..." 
-sleep 1 
-arch-chroot /mnt /bin/bash -c "pacman -S python-pillow file-roller kitty mpv firefox telegram-desktop pcmanfm imv zathura mupdf neofetch ranger neovim htop msmtp libmtp libcddb gvfs gvfs-afc gvfs-smb gvfs-gphoto2 gvfs-mtp gvfs-goa gvfs-nfs gvfs-google dosfstools jfsutils f2fs-tools btrfs-progs exfat-utils ntfs-3g reiserfsprogs udftools xfsprogs nilfs-utils polkit gpart mtools -–noconfirm"
-arch-chroot /mnt /bin/bash -c "pacman -S ttf-{dejavu,hack,roboto,liberation} wqy-microhei bdf-unifont unicode-character-database noto-fonts-emoji -–noconfirm"
-arch-chroot /mnt /bin/bash -c "pacman -S git wget neofetch lsb-release xdg-user-dirs -–noconfirm"
-arch-chroot /mnt /bin/bash -c "pacman -S snapper papirus-icon-theme materia-gtk-theme -–noconfirm"
-arch-chroot /mnt /bin/bash -c "xdg-user-dirs-update" 
-arch-chroot /mnt /bin/bash -c "ls -l /home/$user" 
-sleep 2 
+sleep 1
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 # Configurando sistema de instantaneas
@@ -516,7 +520,9 @@ echo "Configurando snapper..."
 sleep 1 s
 umount /mnt/.snapshots
 rm -r /mnt/.snapshots
+sleep 3
 arch-chroot /mnt /bin/bash -c "snapper -c config create-config /"
+sleep 3
 cat > /mnt/etc/snapper/configs/config <<EOF
 TIMELINE_MIN_AGE="1800"
 TIMELINE_LIMIT_HOURLY="5"
@@ -527,6 +533,7 @@ TIMELINE_LIMIT_YEARLY="0"
 EOF
 arch-chroot /mnt /bin/bash -c "systemctl enable --now snapper-{timeline,cleanup}.timer"
 arch-chroot /mnt /bin/bash -c "systemctl enable --now grub-btrfs.path"
+sleep 2
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 # Instalación de pipewire 
