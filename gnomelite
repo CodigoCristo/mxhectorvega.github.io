@@ -1,66 +1,53 @@
-#!/bin/bash
+#!/bin/bash 
 
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-# Establecer tipografia para la instalacion 
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-clear
-setfont Lat2-Terminus16
-clear
-sleep 1
-echo ""
-echo "Cambiando tipografia a Lat2-Terminus16"
-sleep 2
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
+# Establecer tipografía para la instalación  
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
+clear 
+setfont Lat2-Terminus16 
+clear 
+sleep 1 
+echo "" 
+echo "Cambiando tipografía a Lat2-Terminus16" 
+sleep 2 
 
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-# Texto inicial
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
+# Texto inicial 
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 clear
-pacman -Sy cowsay --noconfirm
-clear
-echo -e ""
-echo -e ""
-echo -e ""
-echo -e ""
-cowsay -d paypal.me/hivz
-sleep 3
-echo -e ""
-echo -e ""
-echo -e ""
-echo -e "Bienvenido al instalador de ArchLinux"
-sleep 1
-echo -e ""
-echo -e "A continuacion escribira un par de datos para generar usuario, contraseñas, idioma de SO y disribucion de teclado."
-sleep 1
-echo -e ""
-echo -e "Antes de comenzar la instalacion asegurate de que la bateria del computador este al 100% o conectada al tomacorriente."
-sleep 1
-echo -e ""
-echo -e "Los datos que proporcionara no seran almacenados en ningun lugar."
-sleep 1
-echo -e ""
-echo -e "Este script es un fork de CrisParch by @codigocristo"
-sleep 1
-echo -e ""
-echo -e "Puedes contribuir en paypal.me/hivz"
-sleep 18
-echo -e ""
-echo -e "Ejecutando..."
-sleep 2
-
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-# Cambiar el idioma del sistema
-# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-clear
-echo ""
-echo "Cabiado lenguaje a español..."
-sleep 1
-echo ""
-echo "es_ES.UTF-8 UTF-8" > /etc/locale.gen
-locale-gen
-echo "LANG=es_ES.UTF-8" > /etc/locale.conf
-export LANG=es_ES.UTF-8
-echo ""
-sleep 1
+echo "" 
+pacman -Sy cowsay --noconfirm 
+clear 
+echo -e "" 
+echo -e "" 
+echo -e "" 
+echo -e "" 
+cowsay -d paypal.me/hivz 
+sleep 3 
+echo -e "" 
+echo -e "" 
+echo -e "" 
+echo -e ""  
+echo -e "Bienvenido al instalador de ArchLinux"  
+sleep 1  
+echo -e ""  
+echo -e "A continuación escribirá un par de datos para generar usuario, contraseñas, idioma de SO y distribución de teclado."  
+sleep 1  
+echo -e ""  
+echo -e "Antes de comenzar la instalación asegúrate de que la batería del computador este al 100% o conectada al tomacorriente."  
+sleep 1  
+echo -e ""  
+echo -e "Los datos que proporcionara no serán almacenados en ningún lugar."  
+sleep 1  
+echo -e ""  
+echo -e "Este script es un fork de CrisParch by @codigocristo"  
+sleep 1  
+echo -e ""  
+echo -e "Puedes contribuir en paypal.me/hivz"  
+sleep 18  
+echo -e ""  
+echo -e "Ejecutando..."  
+sleep 2  
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 # Declarar usuarios y contraseñas 
