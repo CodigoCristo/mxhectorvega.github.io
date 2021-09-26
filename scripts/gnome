@@ -510,6 +510,9 @@ sleep 1
 arch-chroot /mnt /bin/bash -c "pacman -S gdm gnome-control-center gnome-tweaks gnome-shell --noconfirm" 
 arch-chroot /mnt /bin/bash -c "systemctl enable gdm"
 sleep 1
+echo "Se termino de instalar entorno de escritorio Gnome 40"
+sleep 3
+
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 # Configurando sistema de instantaneas
