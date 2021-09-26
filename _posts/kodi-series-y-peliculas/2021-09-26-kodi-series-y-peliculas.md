@@ -6,7 +6,7 @@ tags: [kodi, series, peliculas, linux, windows, macos, ios, android]
 ---
 
 <center>
-<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/kodi-series-y-peliculas/baner-kodi.png" style="max-width:60%;width:auto;height:auto;">
+<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/kodi-series-y-peliculas/baner-kodi.png" style="max-width:90%;width:auto;height:auto;">
 </center>
 
 Este instalador con bashismos es un Fork de Crisparch by [@CodigoCristo](https://github.com/codigocristo), que tiene tiene como finalidad, eficientar, mejorar y optimizar el proceso de instalación de ArchLinux, incluyendo las tecnologias recientes como particionado Brtfs, servidor de audio y video PipeWire, gestor de paquetes en Rust Paru y el entorno de escritorio Gnome 40., <mark>en la inteligencia de poder llegar a más usuarios a probar ArchLinux sin tantas complicaciones.</mark>
