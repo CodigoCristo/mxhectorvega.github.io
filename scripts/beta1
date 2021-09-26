@@ -494,7 +494,7 @@ arch-chroot /mnt /bin/bash -c "pacman -S git wget neofetch lsb-release xdg-user-
 arch-chroot /mnt /bin/bash -c "pacman -S papirus-icon-theme materia-gtk-theme --noconfirm"
 echo "Temas instalados"
 sleep 3
-arch-chroot /mnt /bin/bash -c "sudo pacman -S snapper --noconfirm"
+arch-chroot /mnt /bin/bash -c "sudo pacman -S grub-btrfs snapper --noconfirm"
 echo "snapper instalado"
 sleep 3
 arch-chroot /mnt /bin/bash -c "xdg-user-dirs-update" 
