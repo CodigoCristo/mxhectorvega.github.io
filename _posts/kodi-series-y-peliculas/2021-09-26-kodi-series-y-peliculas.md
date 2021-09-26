@@ -31,4 +31,4 @@ Ahora solo basta con entrar a Balando > Cuevana3 y reproducir el contenido mas r
 
 **Comunidad:**
 - [Canal YouTube](https://youtube.com/mxhectorvega)
-- [Grupo Telegram de ArchLinux](https://t.me/archLinuxes)
+- [Canal Telegram](https://t.me/mxhectorvega)
