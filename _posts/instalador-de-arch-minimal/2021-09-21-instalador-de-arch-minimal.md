@@ -23,7 +23,7 @@ Este instalador con bashismos es un Fork de Crisparch by [@CodigoCristo](https:/
 9. Ingrese localizacion del idioma ejemplo ``` es_MX.UTF-8 ``` o ``` es_AR.UTF-8 ```
 
 **Nota:**
-Despues de la instalacion para cargar las configuraciones de Kitty, Ranger, Neovim, ZSH y un gestor de extenciones para gnome debe de hacer ``` <(curl https://mxhectorvega.github.io/scripts/dots1) ```
+Despues de la instalacion para cargar las configuraciones de Kitty, Ranger, Neovim, ZSH y un gestor de extenciones para gnome debe de hacer ``` bash <(curl https://mxhectorvega.github.io/scripts/dots1) ```
 
 **Captura de pantalla:**
 <center>
