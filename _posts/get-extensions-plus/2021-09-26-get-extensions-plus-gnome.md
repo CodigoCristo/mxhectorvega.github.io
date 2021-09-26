@@ -2,7 +2,7 @@
 layout: post
 title:  "Get Extensions Plus, un gestor de extenciones para Gnome 40.x"
 date:   2021-09-26 10:00:00 +0700
-tags: [gnome, linux, extencions]
+tags: [gnome, linux, extensions]
 ---
 
 <center>
