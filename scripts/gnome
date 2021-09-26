@@ -44,7 +44,7 @@ echo -e "Este script es un fork de CrisParch by @codigocristo"
 sleep 1  
 echo -e ""  
 echo -e "Puedes contribuir en paypal.me/hivz"  
-sleep 18  
+sleep 13 
 echo -e ""  
 echo -e "Ejecutando..."  
 sleep 2  
@@ -471,7 +471,7 @@ clear
 echo "" 
 echo "Instalando shell ZSH y sus paquetes adicionales..." 
 sleep 1 
-arch-chroot /mnt /bin/bash -c "pacman -S zsh-autosuggestions zsh-history-substring-search zsh-completions zsh-syntax-highlighting --noconfirm" 
+arch-chroot /mnt /bin/bash -c "pacman -S zsh-theme-powerlevel10k zsh-autosuggestions zsh-history-substring-search zsh-completions zsh-syntax-highlighting --noconfirm" 
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* 
 # Instalación de servidor X 
