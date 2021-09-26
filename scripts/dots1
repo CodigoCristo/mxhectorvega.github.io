@@ -1,13 +1,17 @@
 #!/bin/bash 
 
 clear
-echo -e "Clonando dotfiles"
+echo -e "Clonando dotfiles..."
 sleep 1
+mkdir ~/.local/bin
 git clone https://github.com/mxhectorvega/dotfilesarchlinux /tmp/dots
 cp -R /tmp/dots/.config/* ~/.config
 cp /tmp/dots/.zshrc ~/.zshrc
 cp /tmp/dots/.p10k.zsh ~/.p10k.zsh
 clear
+echo -e "Configs ZSH, Ranger, Kitty y Neovim cargadas!"
+sleep 1
+echo ""
 echo -e "Contribuye en paypal.me/hivz"
-sleep 2
-exit
+sleep 3
+pkill -9 kitty
