@@ -8,6 +8,9 @@ git clone https://github.com/mxhectorvega/dotfilesarchlinux /tmp/dots
 cp -R /tmp/dots/.config/* ~/.config
 cp /tmp/dots/.zshrc ~/.zshrc
 cp /tmp/dots/.p10k.zsh ~/.p10k.zsh
+git clone https://github.com/ekistece/GetExtensions.git
+pip install ./GetExtensions --user
+rm -rf ~/GetExtensions
 clear
 echo -e "Configs ZSH, Ranger, Kitty y Neovim cargadas!"
 sleep 1

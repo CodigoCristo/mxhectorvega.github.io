@@ -490,7 +490,7 @@ echo ""
 echo "Instalando utilidades del sistema..." 
 sleep 1 
 arch-chroot /mnt /bin/bash -c "pacman -S python-pillow file-roller kitty mpv firefox telegram-desktop pcmanfm imv zathura mupdf neofetch ranger neovim htop --noconfirm"
-arch-chroot /mnt /bin/bash -c "pacman -S git wget neofetch lsb-release xdg-user-dirs --noconfirm"
+arch-chroot /mnt /bin/bash -c "pacman -S git python-pip wget neofetch lsb-release xdg-user-dirs --noconfirm"
 arch-chroot /mnt /bin/bash -c "pacman -S papirus-icon-theme materia-gtk-theme --noconfirm"
 echo "Temas instalados"
 sleep 3
