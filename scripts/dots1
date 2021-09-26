@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+echo -e "Clonando dotfiles"
+sleep 1
+git clone https://github.com/mxhectorvega/dotfilesarchlinux /tmp/dots
+cp -R /temp/dots/.config/* ~/.config
+cp /tmp/dots/.zshrc ~/.zshrc
+cp /tmp/dots/.p10k.zsh ~/.p10k.zsh
+clean
+echo -e "Contribuye en paypal.me/hivz"
+sleep 2
+exit
