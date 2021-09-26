@@ -11,11 +11,11 @@ cp -R /tmp/dots/.config/* ~/.config
 cp /tmp/dots/.zshrc ~/.zshrc
 cp /tmp/dots/.p10k.zsh ~/.p10k.zsh
 git clone https://github.com/ekistece/GetExtensions.git
+clear
+echo -e "Ahora escribe contraseña root para cambiar de Shell a ZSH"
 sudo pacman -S python-pip --noconfirm --needed
 pip install ./GetExtensions --user
 rm -rf ~/GetExtensions
-clear
-echo -e "Ahora escribe contraseña root para cambiar de Shell a ZSH"
 chsh -s /bin/zsh
 clear
 echo -e "Configs ZSH, Ranger, Kitty y Neovim cargadas!"
