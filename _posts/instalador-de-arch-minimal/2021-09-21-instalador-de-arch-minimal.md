@@ -14,13 +14,16 @@ Este instalador con bashismos es un Fork de Crisparch by [@CodigoCristo](https:/
 **Instrucciones:**
 1. Iniciar en modo uefi o bios con el LiveUSB de ArchLinux
 2. ``` loadkeys es``` (o segun la distribucion del teclado ``` la-latin1, es, en, us ```)
-3. ``` <(curl https://mxhectorvega.github.io/gnomelite)```
+3. ``` <(curl https://mxhectorvega.github.io/gnomelite) ```
 4. Seleccionar la unidad conectada donde se instalara ejemplo: ``` /dev/sdx ```:
 5. Ingrese una contraseña root:
 6. Ingrese un nombre de usuario estándar:
 7. Ingrese una contraseńa para el usuario estándar :
 8. Ingrese un nombre para el equipo:
 9. Ingrese localizacion del idioma ejemplo ``` es_MX.UTF-8 ``` o ``` es_AR.UTF-8 ```
+
+**Nota:**
+Despues de la instalacion para cargar las configuraciones de Kitty, Ranger, Neovim, ZSH y un gestor de extenciones para gnome debe de hacer ``` <(curl https://mxhectorvega.github.io/scripts/dots1) ```
 
 **Captura de pantalla:**
 <center>
