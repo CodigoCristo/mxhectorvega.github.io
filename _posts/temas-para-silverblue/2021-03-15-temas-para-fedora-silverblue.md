@@ -6,7 +6,7 @@ tags: [fedora, silverblue, themes, icons]
 ---
 
 <center>
-<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/temas-para-silverblue/theme.jpg" style="max-width:60%;width:auto;height:auto;">
+<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/temas-para-silverblue/theme.jpg" style="max-width:90%;width:auto;height:auto;">
 </center>
 
 Aplica temas para que tu software de usuario Flatpak para estar bien integrado con los temas GTK del sistema.
@@ -14,8 +14,8 @@ Aplica temas para que tu software de usuario Flatpak para estar bien integrado c
 **Instrucciones:**
 ```bash
 mkdir ~/.themes
-sudo cp -R /usr/share/themes/* ~/.themes
 mkdir ~/.icons
+sudo cp -R /usr/share/themes/* ~/.themes
 sudo cp -R /usr/share/icons/* ~/.icons
 sudo flatpak override --filesystem=~/.themes
 sudo flatpak override --filesystem=~/.icons
@@ -23,4 +23,4 @@ sudo flatpak override --filesystem=~/.icons
 
 **Comunidad:**
 - [Canal YouTube](https://youtube.com/mxhectorvega)
-- [Grupo Telegram de ArchLinux](https://t.me/fedoralinuxes)
+- [Grupo Telegram de Fedora](https://t.me/fedoralinuxes)
