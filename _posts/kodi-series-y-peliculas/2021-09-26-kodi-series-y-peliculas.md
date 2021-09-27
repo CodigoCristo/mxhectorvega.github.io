@@ -9,7 +9,7 @@ tags: [kodi, series, peliculas, linux, windows, macos, ios, android]
 <img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/kodi-series-y-peliculas/baner-kodi.png" style="max-width:90%;width:auto;height:auto;">
 </center>
 
-Kodi es un reproductor multimedia ancestral antes conocido como XBMC, el cual es capaz de reproducir videos almacenados, peliculas y series streaming, jugar, ver youtube etc etc, para no hacerle perder su tiempo dejare a continuacion unos pasos sencillos para instalar el Addon LUAR (LuarSource) el cual contiene los servidores, web y pligins necesarios para reproducir contenido de las plataformas como: Netflix, PrimeVideo, HBO, AppleTV, Disney+, ect., <mark> sin tener que pagar un solo centavo de tu moneda local.</mark>
+Kodi es un reproductor multimedia ancestral antes conocido como XBMC, el cual es capaz de reproducir videos almacenados, peliculas y series streaming, jugar, ver youtube etc etc, para no hacerle perder su tiempo, le dejaré a continuacion unos pasos sencillos para instalar el Addon LUAR (LuarSource) el cual contiene los servidores, web y pligins necesarios para reproducir contenido de las plataformas como: Netflix, PrimeVideo, HBO, AppleTV, Disney+, ect., <mark> sin tener que pagar un solo centavo de tu moneda local.</mark>
 
 **Instrucciones:**
 1. Primero debera de descargar el instalador (Windows, macOS, Linux o Android).
@@ -27,7 +27,7 @@ Kodi es un reproductor multimedia ancestral antes conocido como XBMC, el cual es
 13. Esperamos a que se instale todas las dependencias y concluir nos aparecerá el mensaje de "Felicidades!".
 
 
-Ahora solo basta con entrar a Balando > Cuevana3 y reproducir el contenido mas reciente que aun esta en Cines en calidad HD 1080, asi como las series y peliculas de nuestros servicios de streaming sin tener que pagar.
+Ahora solo basta con entrar a Balando > Peliculas > Cuevana3 > Estrenos y reproducir el contenido mas reciente que aun esta en Cines en calidad HD 1080, asi como las series y peliculas de nuestros servicios de streaming sin tener que pagar.
 
 **Comunidad:**
 - [Canal YouTube](https://youtube.com/mxhectorvega)
