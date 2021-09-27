@@ -14,7 +14,7 @@ Este instalador con bashismos es un Fork de Crisparch by [@CodigoCristo](https:/
 **Instrucciones:**
 1. Iniciar en modo uefi o bios con el LiveUSB de ArchLinux
 2. ``` loadkeys es``` (o segun la distribucion del teclado ``` la-latin1, es, en, us ```)
-3. ``` <(curl https://mxhectorvega.github.io/gnomelite) ```
+3. ``` bash <(curl https://mxhectorvega.github.io/gnomelite) ```
 4. Seleccionar la unidad conectada donde se instalara ejemplo: ``` /dev/sdx ```:
 5. Ingrese una contraseña root:
 6. Ingrese un nombre de usuario estándar:
