@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aplicar temas e iconos en Fedora SilverBlue"
+title:  "Aplicar temas e iconos de apps Flatpak en Fedora SilverBlue"
 date:   2021-03-15 07:00:00 +0700
 tags: [fedora, silverblue, themes, icons]
 ---
