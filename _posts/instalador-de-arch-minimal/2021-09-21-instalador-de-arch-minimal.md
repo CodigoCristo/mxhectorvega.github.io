@@ -25,9 +25,17 @@ Este instalador con bashismos es un Fork de Crisparch by [@CodigoCristo](https:/
 **Nota:**
 Despues de la instalacion para cargar las configuraciones de Kitty, Ranger, Neovim, ZSH y un gestor de extenciones para gnome debe de hacer ``` bash <(curl https://mxhectorvega.github.io/scripts/dots1) ```
 
-**Captura de pantalla:**
+**Capturas de pantalla:**
 <center>
-<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/instalador-de-arch-minimal/gnome.png" style="max-width:100%;width:auto;height:auto;">
+<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/instalador-de-arch-minimal/captura1.jpg" style="max-width:100%;width:auto;height:auto;">
+</center>
+
+<center>
+<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/instalador-de-arch-minimal/captura2.jpg" style="max-width:100%;width:auto;height:auto;">
+</center>
+
+<center>
+<img src="https://raw.githubusercontent.com/mxhectorvega/mxhectorvega.github.io/master/_posts/instalador-de-arch-minimal/captura3.png" style="max-width:100%;width:auto;height:auto;">
 </center>
 
 **Comunidad:**
